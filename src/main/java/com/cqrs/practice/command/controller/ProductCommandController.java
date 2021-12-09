@@ -1,7 +1,7 @@
-package com.cqrs.practice.practice.command.controller;
+package com.cqrs.practice.command.controller;
 
-import com.cqrs.practice.practice.command.commands.ProductCreateCommand;
-import com.cqrs.practice.practice.command.model.ProductRestModel;
+import com.cqrs.practice.command.commands.ProductCreateCommand;
+import com.cqrs.practice.command.model.ProductRestModel;
 import java.util.UUID;
 import lombok.extern.slf4j.Slf4j;
 import org.axonframework.commandhandling.gateway.CommandGateway;

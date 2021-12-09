@@ -1,7 +1,7 @@
-package com.cqrs.practice.practice.command.events;
+package com.cqrs.practice.command.events;
 
-import com.cqrs.practice.practice.command.data.Product;
-import com.cqrs.practice.practice.command.data.ProductRepository;
+import com.cqrs.practice.command.data.Product;
+import com.cqrs.practice.command.data.ProductRepository;
 import org.axonframework.eventhandling.EventHandler;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;

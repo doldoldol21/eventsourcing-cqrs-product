@@ -1,4 +1,4 @@
-package com.cqrs.practice.practice.command.events;
+package com.cqrs.practice.command.events;
 
 import java.math.BigDecimal;
 import lombok.AllArgsConstructor;

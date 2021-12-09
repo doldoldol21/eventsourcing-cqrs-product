@@ -1,7 +1,7 @@
-package com.cqrs.practice.practice.command.aggregate;
+package com.cqrs.practice.command.aggregate;
 
-import com.cqrs.practice.practice.command.commands.ProductCreateCommand;
-import com.cqrs.practice.practice.command.events.ProductCreatedEvent;
+import com.cqrs.practice.command.commands.ProductCreateCommand;
+import com.cqrs.practice.command.events.ProductCreatedEvent;
 import java.math.BigDecimal;
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.eventsourcing.EventSourcingHandler;

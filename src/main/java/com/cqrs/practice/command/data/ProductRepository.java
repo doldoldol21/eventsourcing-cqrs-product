@@ -1,4 +1,4 @@
-package com.cqrs.practice.practice.command.data;
+package com.cqrs.practice.command.data;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -1,4 +1,4 @@
-package com.cqrs.practice.practice.command.commands;
+package com.cqrs.practice.command.commands;
 
 import java.math.BigDecimal;
 import lombok.Builder;

@@ -1,4 +1,4 @@
-package com.cqrs.practice.practice.command.data;
+package com.cqrs.practice.command.data;
 
 import java.math.BigDecimal;
 import javax.persistence.Entity;
