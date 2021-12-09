@@ -1,0 +1,11 @@
+###
+# 제품 만들기
+
+POST http://localhost:8080/products
+Content-Type: application/json
+
+{
+    "name" : "pineApple",
+    "price" : 20000,
+    "quantity" : 5
+}

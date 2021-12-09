@@ -1,0 +1,24 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: eventsourcing-cqrs-product
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/product
+    username: product
+    password: product
+    driverClassName: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+  sql:
+    init:
+      platform: postgresql
+
+logging:
+  level:
+    root: ERROR
+    "[com.cqrs.practice]": DEBUG
+    "[org.axonframework]": DEBUG
